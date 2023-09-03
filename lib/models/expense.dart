@@ -5,7 +5,7 @@ import 'package:intl/intl.dart';
 final formatter = DateFormat.yMd();
 const uuid = Uuid();
 
-enum Category { food, travel, ration, leisure, work }
+enum Category { food, travel, leisure, work }
 
 const Map<Category, IconData> categoryIcons = {
   Category.food: Icons.lunch_dining,

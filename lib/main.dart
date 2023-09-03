@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:expense_tracker/widgets/expenses.dart';
 
 var kColorScheme = ColorScheme.fromSeed(
-  seedColor: const Color.fromARGB(255, 247, 92, 234), //255, 96, 59, 181
+  seedColor: const Color.fromARGB(255, 202, 78, 236), //255, 96, 59, 181
 );
 
 var kdarkColorScheme = ColorScheme.fromSeed(
@@ -12,6 +12,7 @@ var kdarkColorScheme = ColorScheme.fromSeed(
 void main() {
   runApp(
     MaterialApp(
+      debugShowCheckedModeBanner: false,
       darkTheme: ThemeData.dark().copyWith(
         useMaterial3: true,
         colorScheme: kdarkColorScheme,
