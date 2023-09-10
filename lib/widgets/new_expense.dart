@@ -69,6 +69,22 @@ class _NewExpenseState extends State<NewExpense> {
         ),
       );
     }
+    // showAdaptiveDialog(
+    //   context: context,
+    //   builder: (ctx) => AlertDialog.adaptive(
+    //     title: const Text('Invalid Input'),
+    //     content: const Text(
+    //         'Please make sure a valid title, amount, date and category was entered.'),
+    //     actions: [
+    //       TextButton(
+    //         onPressed: () {
+    //           Navigator.pop(ctx);
+    //         },
+    //         child: const Text('Okay'),
+    //       )
+    //     ],
+    //   ),
+    // );
   }
 
   void _submitExpensesData() {
